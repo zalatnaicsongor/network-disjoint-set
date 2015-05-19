@@ -1,0 +1,8 @@
+This is my solution of a test task given by Upwork (formerly odesk).
+
+The solution is based on using Disjoint Sets to represent sets (connected components in an undirected graph),
+which are then used to determine if two nodes in a graph belong to the same connected component.
+
+Notes:
+- The classes of interest are hu.zalatnai.odesk_test.Network and hu.zalatnai.odesk_test.datastructure.DisjointSet. DisjointSet is the underlying Disjoint Set implementation of the Network class. The Network class delegates the calls made to it to the underlying set implementation.
+- The hu.zalatnai.odesk_test.NetworkTest test class can be run with JUnit 4. It exercises the Network class without any knowledge of the underlying implementation
