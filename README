@@ -1,5 +1,3 @@
-This is my solution of a test task given by Upwork (formerly odesk).
-
 The solution is based on using Disjoint Sets to represent sets (connected components in an undirected graph),
 which are then used to determine if two nodes in a graph belong to the same connected component.
 
